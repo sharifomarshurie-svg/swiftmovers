@@ -1,0 +1,22 @@
+header {
+    background-color: #3a079e;
+}
+#arrow {
+    color: yellow;
+}
+table{
+    display: flex;
+    justify-content: flex-end;
+
+}
+table td {
+    padding: 10px;
+    color: white;
+}
+.pp {
+    display: flex;
+    display: inline-block;
+}
+h1 {
+   font-weight: bold;
+}
