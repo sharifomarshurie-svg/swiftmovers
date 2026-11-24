@@ -1,22 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 header {
     background-color: #3a079e;
 }
+  
+.swift{
+    padding-top: 2%;
+    padding-right: 2%;
+    margin-right: 0%;
+}
 #arrow {
     color: yellow;
+    margin-left: 0%;
 }
 table{
     display: flex;
     justify-content: flex-end;
-
-}
-table td {
-    padding: 10px;
     color: white;
+}
+ td {
+   padding: 10px;
+   
 }
 .pp {
     display: flex;
     display: inline-block;
+    color: white;
+    font-size:large;
+    margin-left: 2%;
 }
 h1 {
    font-weight: bold;
 }
+.container {
+    padding-top: 2%;
+  background-color: #3a079e; 
+  display: flex;  
+  width: 100%;
+ 
+}
+.form {
+    background-color: whitesmoke;
+   border: 2px whitesmoke;
+   border-radius: 10px;
+   padding: 2%;
+   margin-right: 2%;
+   margin: 5%;
+}
+.stress {
+    background-color: rgb(204, 188, 8);
+    color: black;
+}
+.text {
+    margin-left:3%;
+    color: white;
+    padding-top: 8%;
+    font-size: large;
+}
+.text,
+.form{
+    width: 50%;
+}
+#button {
+    margin-top: 1%;
+    border: 1px;
+    border-radius: 3px;
+    background-color: rgb(204, 188, 8);
+    width: 100%;
+    padding: 1.5%;
+    margin: 2%;
+}
+input{
+    width:100%;
+    border-radius: 3px;
+    padding: 1%;
+    margin: 1.5% ;
+
+}
+#choice{
+    width:100%;
+}
+.two{
+    margin-left:3%;
+
+}
+.two h1{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.two h3{
+    color: #3a079e;
+}
+.step{
+display: flex;
+justify-content: space-between;
+font-size: small;
+}
+.step1{
+border-top:3px;
+border-style: solid;
+border-color: white;
+border-top-color: #3a079e;
+margin-bottom: 3%;
+width: 30%;
+padding-top: 1%;
+}
+.step2{
+border-top:3px;
+border-style: solid;
+border-color: white;
+border-top-color: #3a079e;
+margin-bottom: 3%;
+width:30%;
+padding-top: 1%;
+}
+.step3{
+border-top:3px;
+border-style: solid;
+border-color: white;
+border-top-color: #3a079e;
+margin-bottom: 3%;
+width: 30%;
+padding-top: 1%;
+}
+.three{
+    background-color: rgb(244, 245, 250);
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    border: 3px;
+    margin:2%;
+    width:100%;
+    margin-left: 3%;
+    border-radius: 4px;
+    
+}
+.p3{
+    margin: 2%;
+}
+.img,
+.p3{
+    margin:2%;
+    width:100%;
+font-size: small;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+padding: 2%;
+}
+@media screen (max-width: 768px;){
+    
+    
+}
+
