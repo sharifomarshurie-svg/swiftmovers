@@ -72,7 +72,7 @@ h1 {
     background-color: rgb(204, 188, 8);
     width: 100%;
     padding: 1.5%;
-    margin: 2%;
+    margin: 1.5%;
 }
 input{
     width:100%;
@@ -130,28 +130,35 @@ padding-top: 1%;
 .three{
     background-color: rgb(244, 245, 250);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .img{
     border: 3px;
     margin:2%;
     width:100%;
     margin-left: 3%;
-    border-radius: 4px;
-    
+    border-style: dashed;
+    border-radius: 10px; 
+    border-color: #3a079e;
+    padding-bottom: -2%;
+     
 }
 .p3{
     margin: 2%;
+    margin-top: 3%;
 }
 .img,
 .p3{
     margin:2%;
     width:100%;
-font-size: small;
+    font-size: small;
 }
 .footer{
     display:flex;
     justify-content: space-between;
-padding: 2%;
+    padding: 2%;
+}
+li{
+    margin: 2%;
 }
 
